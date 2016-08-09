@@ -37,24 +37,7 @@ class LocationsTableViewController: UITableViewController {
             self.locationsMapViewController.view.frame = self.view.bounds
             self.locationsMapViewController.MapView.center.x = self.locationsMapViewController.MapView.center.x + self.view.bounds.width * 2
             self.view.addSubview(self.locationsMapViewController.view)
-//            self.moveInMapView()
         }
-    }
-    
-    func moveInMapView() {
-        let panelMover = CABasicAnimation(keyPath: "position")
-        panelMover.removedOnCompletion = false
-        panelMover.fillMode = kCAFillModeForwards
-        panelMover.duration = 5.6
-        panelMover.fromValue = NSValue(CGPoint: self.locationsMapViewController.MapView.center)
-        panelMover.toValue = NSValue(CGPoint: self.view.center)
-        panelMover.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
-        panelMover.delegate = self
-        self.locationsMapViewController.MapView.layer.addAnimation(panelMover, forKey: "panelMover")
-    }
-    
-    func moveOutMapView() {
-        
     }
     
     var locations = [Location]()
