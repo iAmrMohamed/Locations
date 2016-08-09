@@ -26,6 +26,8 @@
 		299AC2121D35402900CEAAD8 /* AddWEditLocationTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299AC2111D35402900CEAAD8 /* AddWEditLocationTVC.swift */; };
 		29B6B7471D4A9280004EC99D /* LocationsMVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B6B7461D4A9280004EC99D /* LocationsMVC.swift */; };
 		29B6B7491D4A98F4004EC99D /* MapViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B6B7481D4A98F4004EC99D /* MapViewExtensions.swift */; };
+		29C9A4771D5A4D3B00B12202 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 29C9A4751D5A4D3B00B12202 /* LICENSE */; };
+		29C9A4781D5A4D3B00B12202 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 29C9A4761D5A4D3B00B12202 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		299AC2111D35402900CEAAD8 /* AddWEditLocationTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWEditLocationTVC.swift; sourceTree = "<group>"; };
 		29B6B7461D4A9280004EC99D /* LocationsMVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsMVC.swift; sourceTree = "<group>"; };
 		29B6B7481D4A98F4004EC99D /* MapViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewExtensions.swift; sourceTree = "<group>"; };
+		29C9A4751D5A4D3B00B12202 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		29C9A4761D5A4D3B00B12202 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		299AC1E71D3538BD00CEAAD8 = {
 			isa = PBXGroup;
 			children = (
+				29C9A4751D5A4D3B00B12202 /* LICENSE */,
+				29C9A4761D5A4D3B00B12202 /* README.md */,
 				299AC1F21D3538BD00CEAAD8 /* Locations */,
 				299AC1F11D3538BD00CEAAD8 /* Products */,
 			);
@@ -217,6 +223,7 @@
 			files = (
 				299AC2011D3538BD00CEAAD8 /* LaunchScreen.storyboard in Resources */,
 				299AC1FE1D3538BD00CEAAD8 /* Assets.xcassets in Resources */,
+				29C9A4771D5A4D3B00B12202 /* LICENSE in Resources */,
 				299AC1F91D3538BD00CEAAD8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +247,7 @@
 				2915F0FA1D35B071005F4592 /* PlacemarkExtensions.swift in Sources */,
 				293EE6F21D3FE2D300FE9D40 /* LocationTVCell.swift in Sources */,
 				296CBBA81D4D76D500C94D4C /* AMKAnnotationView.swift in Sources */,
+				29C9A4781D5A4D3B00B12202 /* README.md in Sources */,
 				299AC1F41D3538BD00CEAAD8 /* AppDelegate.swift in Sources */,
 				2961CFE81D3C27AE00BCDFEB /* CategoriesTVC.swift in Sources */,
 			);
